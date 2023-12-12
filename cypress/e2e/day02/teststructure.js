@@ -1,20 +1,19 @@
-describe('First Test Suit', function(){
-    it('First Test Case', function(){
+describe('First Test Suit',function(){
+    it('First Test Case',function(){
         syntax
     })
-    it('Seconnd Test Case', function(){
+    it('Second Test Case',function(){
         syntax
     })
-    it('Third Test Case', function(){
+    it('Third Test Case',function(){
         syntax
     })
 })
-
-describe('Second Test Suit', ()=>{
+describe('Second Test Suit',()=>{
     it('First Test Case',()=>{
         syntax
     })
-    it('Seconnd Test Case',()=>{
+    it('Second Test Case',()=>{
         syntax
     })
     it('Third Test Case',()=>{
