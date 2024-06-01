@@ -13,8 +13,7 @@ getNumber(10005).then((val)=>{
 })
 
 
+
 // getNumber("ccc").then((val)=>{ 
 //     console.log('val', val)
-// })        
-
- 
+// })     

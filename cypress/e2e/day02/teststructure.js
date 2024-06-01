@@ -1,4 +1,4 @@
-describe('First Test Suit',function(){
+describe('First Test Suit',function(){                // function()      1.way
     it('First Test Case',function(){
         syntax
     })
@@ -9,7 +9,7 @@ describe('First Test Suit',function(){
         syntax
     })
 })
-describe('Second Test Suit',()=>{
+describe('Second Test Suit',()=>{               // ()=>   2. way
     it('First Test Case',()=>{
         syntax
     })
