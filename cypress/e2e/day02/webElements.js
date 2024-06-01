@@ -1,6 +1,6 @@
 ///<reference types="cypress" />
-describe('Web elements',()=>{
-    it('First test',()=>{
+describe('Web elements',()=>{         // test suit structure
+    it('First test',()=>{           // test case structure
         // tag name
         cy.get('h1')
         // By id
