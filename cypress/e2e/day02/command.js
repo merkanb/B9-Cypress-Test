@@ -19,11 +19,13 @@ cy,get('input').should('have.value', 'James')
 // parent to child or child to parent 
 cy.get(loc).first()      // go to first child element
 cy.get(loc).last()         // go to last child element
-cy.get(loc).eq(3).click()
-cy.get(loc).next().click()
+cy.get(loc).eq(3).click()       // 3. child - index no 3
+cy.get(loc).next().click()      //  ??? following sibling 
 
 cy.go('back')       // come back to prev. page
-cy.get('tbody tr').nextAll().click({multiple:true})                    // web table
+
+//web table-multiple:true is condition:if there is next 
+cy.get('rt-tbody').nextAll().click({multiple:true})  
 
 cy.get(loc).prev().click()      // prev. one
 cy.get(loc).prevAll().click()
