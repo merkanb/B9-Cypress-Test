@@ -17,5 +17,6 @@
  * npx cypress run --browser firefox --spec "cypress\e2e\day1\firsttest.cy.js"  
  * 
 
- Ctrl + C  =>  to stop terminal run  
+ * Ctrl + C  =>  to stop terminal run  
+ * Shift + Alt + F    allign page - format
  */
