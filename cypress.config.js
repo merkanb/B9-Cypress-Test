@@ -9,14 +9,17 @@ module.exports = defineConfig({
   viewportHeight: 800,
   viewportWidth: 1080,
   failOnStatusCode: false,
-  env: {
+
+  env: {                     // this is a .json body format/ we can define some environmental variable url/username etc
     baseUrl: "https://www.demoblaze.com/",
     username: "merkanb",
     password: "1234567Aa"
   },
+
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
   },
+  
 });

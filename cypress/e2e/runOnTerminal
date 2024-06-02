@@ -1,0 +1,21 @@
+/**
+ * we run our TC in CYPRESS interface with AutoSave mode 
+ * to run in terminal -> in order to get related videos AND screenshots in case of FAIL saved IN related folders
+ 
+ * npx cypress run       // run all test under e2e
+ 
+ * // npx cypress run --spec "HERE WE ADD RELATIVE PATH"
+
+ * npx cypress run --spec "cypress\e2e\day1\firstTest.cy.js"
+ * npx cypress run --spec "cypress\e2e\day2\pomEx.cy.js"
+ * npx cypress run --spec "cypress\e2e\day2"
+ 
+ * // RELATIVE PATH MAY BE: cypress\e2e\day02\firstTest.cy.js   OR   cypress\e2e\day02   -->  INSIDE THE  " "
+ 
+ 
+ * to run different browser
+ * npx cypress run --browser firefox --spec "cypress\e2e\day1\firsttest.cy.js"  
+ * 
+
+ Ctrl + C  =>  to stop terminal run  
+ */

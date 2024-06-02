@@ -1,4 +1,4 @@
-export class Login{
+export class Login{           // in order to call from outside we defined export class ...
     navigate(){
         cy.visit(Cypress.env("baseUrl"))
     }
@@ -7,7 +7,7 @@ export class Login{
     }
     loginBtn(){
         cy.get('#login2').click().wait(500)
-        return this
+        return this                            // to chain these methods with the others we made < return to this >
     }
     username(){
         cy.get('#loginusername').type(Cypress.env("username")).wait(500)
