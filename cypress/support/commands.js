@@ -24,7 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('loginCommand', (username, password) => {
+
+//  !!!!!!!! Creating custom method named "loginCommand" with paremeters  !!!!!!!!  
+//   we will call from loginCustomCommands.cy.js file
+
+
+Cypress.Commands.add('loginCommand', (username, password) => {  
     cy.get('#login2').click().wait(500)
     cy.get('#loginusername').type(username).wait(500)
     cy.get('#loginpassword').type(password).wait(500)
